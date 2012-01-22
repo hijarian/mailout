@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit 
+	colors="true"
+	strict="true">
+	
+	<php>
+		<includePath>../code/</includePath>
+		<var name="DB_DSN" value="sqlite:recipients.test.db" />
+		<var name="DB_USER" value="" />
+		<var name="DB_PASSWD" value="" />
+		<var name="DB_DBNAME" value="" />
+	</php>
+	
+	<testsuites>
+		<testsuite name="Recipients">
+			<file>RecipientTest.php</file>
+			<file>RecipientsDBTest.php</file>
+			<file>RecipientsStatsTest.php</file>
+		</testsuite>
+	</testsuites>
+	
+</phpunit>

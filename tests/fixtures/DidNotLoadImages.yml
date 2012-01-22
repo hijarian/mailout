@@ -1,0 +1,38 @@
+recipients:
+    -
+        id: 1
+        gid: 1
+        email: 'normal@visitor.dom'
+        opened: 0
+        homepage: 0
+        catalog: 0
+        unsubscribed: 0
+        ignore: 0
+    -
+        id: 2
+        gid: 1
+        email: 'angry@visitor.dom'
+        opened: 0
+        homepage: 0
+        catalog: 0
+        unsubscribed: 0
+        ignore: 0
+    -
+        id: 3
+        gid: 22
+        email: 'not.interested@visitor.dom'
+        opened: 0
+        homepage: 0
+        catalog: 0
+        unsubscribed: 0
+        ignore: 0
+    -
+        id: 4
+        gid: 22
+        email: 'cunning@visitor.dom'
+        opened: 0
+        homepage: 0
+        catalog: 1
+        unsubscribed: 0
+        ignore: 0
+    
