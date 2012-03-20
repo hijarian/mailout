@@ -1,0 +1,15 @@
+#!/bin/sh
+
+cd ../code
+echo 'Moved to code dir'
+
+BAKFILE=recipients-`date +%Y-%m-%d`.db
+cp recipients.db $BAKFILE
+echo "Created backup of the database in file $BAKFILE"
+
+./recipur.php
+echo 'Purged old stats'
+
+cd ../app
+echo 'Returned to app dir'
+
